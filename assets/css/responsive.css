@@ -38,6 +38,9 @@
     .about-text{
         text-align: center;
     }
+    .card-deck{
+        margin-left: 0px;
+    }
     
 }
 
