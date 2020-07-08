@@ -1,9 +1,42 @@
 /* MEDIA QUERIES FOR 576PX AND ABOVE */
 /* Only use the breakpoint necessary to your project */
-@media all and (min-width:576px) {}
 
-@media all and (min-width:768px) {}
+@media all and (max-width:1200px) {
+    .about-text{
+        margin-top: 0px;
+    }
+}
 
-@media all and (min-width:992px) {}
+@media all and (max-width:992px) {}
 
-@media all and (min-width:1200px) {}
+@media all and (max-width:768px) {
+    .about-text p{
+        font-size: 16px;
+        line-height: 26px;
+    }
+}
+
+@media all and (max-width:576px) {
+    .bg{
+        height: 760px
+    }
+    .header-text{
+        top: 50%
+    }
+    .header-text  h5{
+        font-size: 35px;
+        line-height: 46px;
+        font-weight: 550;
+    }
+    .header-text p{
+        font-size: 15px;
+    }
+    .about-text{
+        text-align: center;
+    }
+    
+}
+
+
+
+

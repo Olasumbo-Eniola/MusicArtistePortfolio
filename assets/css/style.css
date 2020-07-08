@@ -16,7 +16,7 @@
   background: url(https://res.cloudinary.com/olasumboeniola/image/upload/v1594205582/Rectangle_1_1_vqwapd.png) center no-repeat;
   position: relative;
   background-size: cover;
-  height: 90vh;
+  height: 100vh;
 }
 .filter{
   background: #000000;
@@ -26,7 +26,7 @@
 }
 .header-text{
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
@@ -43,4 +43,27 @@ line-height: 65px;
   font-weight: normal;
   font-size: 18px;
   line-height: 28px;  
+}
+.learn-more{
+  color: white;
+  background: #FF7D05;
+border-radius: 5px;
+
+}
+.about-text{
+  margin-top: 100px;
+}
+.about-text h5{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 28px;
+  color: #333333;  
+}
+.about-text p{
+  font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 28px;
+color: #333333;
 }
