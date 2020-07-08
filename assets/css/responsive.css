@@ -3,7 +3,11 @@
 
 @media all and (max-width:1200px) {
     .about-text{
-        margin-top: 0px;
+        margin-top: 50px;
+        text-align: center;
+    }
+    .about-img{
+        margin: auto;
     }
 }
 
