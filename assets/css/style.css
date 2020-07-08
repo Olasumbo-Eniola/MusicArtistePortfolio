@@ -83,3 +83,15 @@ color: #333333;
   font-size: 18px;
   line-height: 28px;  
 }
+#albums{
+  background: #FEFAF5;
+  margin-top: 150px;
+
+}
+.album{
+padding-top: 100px;
+}
+.card{
+  background: #FEFAF5;
+  border: none !important;
+}
