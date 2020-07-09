@@ -2,9 +2,10 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
- 
 }
-
+body p{
+   font-size: 18px;
+}
 .nav-item{
   padding-left: 57px;
 
@@ -71,6 +72,7 @@ color: #333333;
 .services{
   margin-top: 150px;
 }
+
 .card-text h4{
   font-style: normal;
   font-weight: bold;
@@ -87,13 +89,15 @@ color: #333333;
 #albums{
   background: #FEFAF5;
   margin-top: 150px;
-
+ 
 }
 .album{
 padding-top: 100px;
+padding-bottom: 100px;
 }
-.card{
-  border: none !important;
+.album-card{
+background-color: transparent;
+  border: none;
 }
 .release{
   margin-top: 93px;
@@ -103,4 +107,15 @@ padding-top: 100px;
 }
 #blog{
   background: #FEFAF5;
+
+}
+.line{
+  border: 1px solid #000000;
+  height: 0.1px;
+  width: 250px;
+}
+.bg-footer{
+  background: url(https://res.cloudinary.com/olasumboeniola/image/upload/v1594200518/Rectangle_28_bevar0.png);
+  height: 50vh;
+  position: relative;
 }

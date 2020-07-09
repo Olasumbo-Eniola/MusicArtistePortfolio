@@ -9,6 +9,11 @@
     .about-img{
         margin: auto;
     }
+    .nav-item{
+        text-align: left;
+        padding-right: none;
+    }
+   
 }
 
 @media all and (max-width:992px) {}
@@ -18,9 +23,21 @@
         font-size: 16px;
         line-height: 26px;
     }
+    form{
+        width: 100%;
+    }
+    .contact{
+        text-align: center;
+    }
+    .line{
+        margin: auto;
+    }
 }
 
 @media all and (max-width:576px) {
+    body p , h5, h6{
+        text-align: center;
+    }
     .bg{
         height: 760px
     }
@@ -40,6 +57,13 @@
     }
     .card-deck{
         margin-left: 0px;
+    }
+    form{
+        margin: auto;
+        width: 100%;
+    }
+    .line{
+        width: 100%;
     }
     
 }
