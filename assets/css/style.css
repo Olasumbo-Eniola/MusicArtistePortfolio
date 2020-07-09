@@ -6,9 +6,8 @@
 body p{
    font-size: 18px;
 }
-.nav-item{
+header .nav-item{
   padding-left: 57px;
-
   padding-bottom: 15px;
 }
 .nav-link{
@@ -114,8 +113,36 @@ background-color: transparent;
   height: 0.1px;
   width: 250px;
 }
+
 .bg-footer{
   background: url(https://res.cloudinary.com/olasumboeniola/image/upload/v1594200518/Rectangle_28_bevar0.png);
   height: 50vh;
   position: relative;
+  
+}
+.input-group input{
+  background: transparent !important;
+}
+.input-group .learn-more{
+  border-radius: 0;
+}
+footer{
+  background: #000000;
+}
+.footer-content{
+  padding-top: 100px;
+}
+.footer-line{
+  border: 0.1px solid #FFFFFF;
+  height: 2px;
+ margin-top: 15px;
+  
+}
+.icon{
+  float: right;
+  color: #FF7D05;
+  padding-right: 20px;
+}
+.song{
+  padding-top: 20px;
 }
