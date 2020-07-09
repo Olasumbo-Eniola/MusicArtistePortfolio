@@ -18,7 +18,6 @@
 
 @media all and (max-width:992px) {
     header .nav-item{
-        text-align: center;
         font-size: 18px;
     }
     #navbar{
