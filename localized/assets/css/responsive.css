@@ -1,0 +1,124 @@
+/* MEDIA QUERIES FOR 576PX AND ABOVE */
+/* Only use the breakpoint necessary to your project */
+
+@media all and (max-width:1200px) {
+    .about-text{
+        margin-top: 50px;
+        text-align: center;
+    }
+    .about-img{
+        margin: auto;
+    }
+    .input-group{
+        margin-left: 60px;
+    }
+   
+}
+
+@media all and (max-width:992px) {
+    footer p{
+        text-align: center !important;
+    }
+    header .nav-item{
+        font-size: 18px;
+    }
+    #navbar{
+        display: none;
+    }
+    .footer-brand{
+        margin: auto;
+    }
+    .footer-line{
+        display: none;
+    }
+    .footer-text{
+        text-align: center;
+    }
+   .song{
+    text-align: center;
+   }
+   .footer-icon {
+    text-align: center;
+    margin: auto;
+   }
+    .input-group{
+        margin: auto;
+        margin-left: 50px;
+    }
+    .icon {
+        float: none !important;
+        text-align: center;
+        text-align: center;
+        margin: auto;
+    }
+    .header-text p{
+        width: 80%;
+    }
+}
+
+@media all and (max-width:768px) {
+    body p{
+        font-size: 16px;
+    }
+    .about-text p{
+        font-size: 16px;
+        line-height: 26px;
+    }
+    form{
+        width: 100%;
+    }
+    .contact{
+        text-align: center;
+    }
+   
+  .contact-info{
+      padding: 2rem;
+  }
+  .header-text p{
+      width: 100%;
+  }
+  
+}
+
+@media all and (max-width:576px) {
+    
+    .bg{
+        height: 760px;
+    }
+    .header-text{
+        top: 50%;
+    }
+   
+   
+    .header-text p{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        width: 100%;
+        line-height: 24px; 
+    }
+    .about-text{
+        text-align: center;
+    }
+    .card-deck{
+        margin-left: 0px;
+    }
+    form{
+        margin: auto;
+        width: 100%;
+    }
+    .line{
+        width: 100%;
+    }
+    .input-group{
+        width: 100%;
+        margin: auto;
+        margin-left:30px;
+    }
+ 
+    
+}
+
+
+
+
