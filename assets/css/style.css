@@ -3,8 +3,20 @@
   margin: 0;
   box-sizing: border-box;
 }
+html{
+  scroll-behavior: smooth;
+}
+body h6{
+  font-style: normal;
+font-weight: bold;
+font-size: 28px;
+line-height: 28px;
+}
 body p{
    font-size: 18px;
+}
+.navbar{
+  background: #000000;
 }
 header .nav-item{
   padding-right: 57px;
@@ -15,13 +27,13 @@ header .nav-item{
   color: aqua;
   font-size: 18px;
 }
-header .navbar-dark .navbar-nav .nav-link {
+header .navbar-nav .nav-link {
   color: white !important;
 }
-header .navbar-dark .navbar-nav .nav-link:hover {
+  .navbar-nav .nav-link:hover {
   color: #FF7D05 !important;
 }
-header .navbar-dark .navbar-nav .nav-item li.active{
+header .navbar-nav .nav-item li.active{
  color: blue;
 }
 .bg{
@@ -38,7 +50,7 @@ header .navbar-dark .navbar-nav .nav-item li.active{
 }
 .header-text{
   position: absolute;
-  top: 60%;
+  top: 336px;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
@@ -49,6 +61,9 @@ header .navbar-dark .navbar-nav .nav-item li.active{
 font-weight: bold;
 font-size: 48px;
 line-height: 65px;
+}
+#about-me{
+  padding: 2rem;
 }
 .header-text p{
   font-style: normal;
@@ -111,9 +126,28 @@ color: #333333;
 padding-top: 50px;
 padding-bottom: 50px;
 }
+.album h4{
+  font-style: normal;
+font-weight: bold;
+font-size: 28px;
+line-height: 28px;
+}
 .album-card{
 background-color: transparent;
   border: none;
+}
+.album-card h6{
+  font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 28px;
+color: #333333;
+}
+.album-card p{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;  
 }
 .release{
   margin-top: 93px;
@@ -130,6 +164,7 @@ background-color: transparent;
   border: 1px solid #333333 !important;
   box-sizing: border-box; 
   width: 650px;
+  color: #FFFFFF !important;
 }
 
 .contact-btn{
@@ -137,6 +172,19 @@ background-color: transparent;
   color: #FFFFFF;
   border-radius: 0;
   width: 186px;
+}
+.contact-info h6{
+  font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 27px;
+
+}
+.contact-info p{
+  font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 27px
 }
 .line{
   border: 1px solid #000000;
@@ -188,7 +236,15 @@ footer{
 .footer-brand{
   margin-left: -1.5rem;
 }
-
+.sub-text{
+  font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 28px;
+}
+.sub{
+  margin-top: 45px;
+}
 .song{
   padding-top: 20px;
 }
