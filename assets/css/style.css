@@ -7,11 +7,22 @@ body p{
    font-size: 18px;
 }
 header .nav-item{
-  padding-left: 57px;
+  padding-right: 57px;
   padding-bottom: 15px;
+  color: blueviolet;
 }
 .nav-link{
+  color: aqua;
   font-size: 18px;
+}
+header .navbar-dark .navbar-nav .nav-link {
+  color: white !important;
+}
+header .navbar-dark .navbar-nav .nav-link:hover {
+  color: #FF7D05 !important;
+}
+header .navbar-dark .navbar-nav .nav-item li.active{
+ color: blue;
 }
 .bg{
   background: url(https://res.cloudinary.com/olasumboeniola/image/upload/v1594205582/Rectangle_1_1_vqwapd.png) center no-repeat;
@@ -48,11 +59,10 @@ line-height: 65px;
 .learn-more{
   color: white;
   background: #FF7D05;
-border-radius: 5px;
-
+  border-radius: 0;
 }
 .about-text{
-  margin-top: 100px;
+  margin-top: 50px;
 }
 .about-text h5{
   font-style: normal;
@@ -69,7 +79,7 @@ line-height: 28px;
 color: #333333;
 }
 .services{
-  margin-top: 150px;
+  margin-top: 60px;
 }
 
 .card-text h4{
@@ -87,12 +97,12 @@ color: #333333;
 }
 #albums{
   background: #FEFAF5;
-  margin-top: 150px;
+  margin-top: 60px;
  
 }
 .album{
-padding-top: 100px;
-padding-bottom: 100px;
+padding-top: 50px;
+padding-bottom: 50px;
 }
 .album-card{
 background-color: transparent;
@@ -108,6 +118,17 @@ background-color: transparent;
   background: #FEFAF5;
 
 }
+ input, textarea{
+  border-radius: 0 !important;
+  border: 1px solid #333333 !important;
+  box-sizing: border-box; 
+  width: 650px;
+}
+.contact-btn{
+  background: #FF7D05;
+  color: #FFFFFF;
+  border-radius: 0;
+}
 .line{
   border: 1px solid #000000;
   height: 0.1px;
@@ -115,17 +136,29 @@ background-color: transparent;
 }
 
 .bg-footer{
-  background: url(https://res.cloudinary.com/olasumboeniola/image/upload/v1594200518/Rectangle_28_bevar0.png);
+  background: url(https://res.cloudinary.com/olasumboeniola/image/upload/v1594200518/Rectangle_28_bevar0.png) center no-repeat;
   height: 50vh;
   position: relative;
+  background-size: cover;
   
+}
+.footer-text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
 }
 .input-group input{
   background: transparent !important;
 }
-.input-group .learn-more{
-  border-radius: 0;
+.input-group{
+  margin-top: 10px;
+  margin: auto;
+  margin-left: 100px;
 }
+
 footer{
   background: #000000;
 }
@@ -138,11 +171,15 @@ footer{
  margin-top: 15px;
   
 }
-.icon{
+.footer-brand{
+  margin-left: -1.5rem;
+}
+
+.song{
+  padding-top: 20px;
+}
+.icon {
   float: right;
   color: #FF7D05;
   padding-right: 20px;
-}
-.song{
-  padding-top: 20px;
 }

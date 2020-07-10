@@ -9,14 +9,14 @@
     .about-img{
         margin: auto;
     }
-    .nav-item{
-        text-align: left;
-        padding-right: none;
-    }
+    
    
 }
 
 @media all and (max-width:992px) {
+    footer p{
+        text-align: center !important;
+    }
     header .nav-item{
         font-size: 18px;
     }
@@ -32,23 +32,29 @@
     .footer-text{
         text-align: center;
     }
-    .footer-icon{
-        text-align: center;
+   .song{
+    text-align: center;
+   }
+   .footer-icon {
+    text-align: center;
+    margin: auto;
+   }
+    .input-group{
         margin: auto;
+        margin-left: 50px;
     }
-    .icon{
+    .icon {
         float: none !important;
         text-align: center;
         text-align: center;
         margin: auto;
     }
-    .icon p  i{
-        text-align: center;
-        
-    }
 }
 
 @media all and (max-width:768px) {
+    body p{
+        font-size: 16px;
+    }
     .about-text p{
         font-size: 16px;
         line-height: 26px;
