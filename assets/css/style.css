@@ -52,6 +52,7 @@ header .navbar-nav .nav-item li.active{
   position: absolute;
   top: 50%;
   left: 50%;
+  width: 100%;
   transform: translate(-50%, -50%);
   color: white;
   text-align: center;
@@ -69,9 +70,13 @@ line-height: 65px;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
-  line-height: 28px;  
+  line-height: 28px;
+  width: 60%;  
+  margin: auto;
+  text-align: center;
 }
 .learn-more{
+  margin-top: 20px;
   color: white;
   background: #FF7D05;
   border-radius: 0;
@@ -209,15 +214,19 @@ line-height: 27px
 }
 .input-group input{
   background: transparent !important;
+  border: 2px solid #FFFFFF !important;
 }
 .input-group{
   margin-top: 10px;
   margin: auto;
   margin-left: 100px;
 }
+input.form-controwi ::placeholder{
+  color: #E8DFE8;
+}
 .news-btn{
   color: #FFFFFF;
-  background: #FF7D05;
+  background: #FF7D05 !important;
   width: 155px;
   border-radius: 0;
 }

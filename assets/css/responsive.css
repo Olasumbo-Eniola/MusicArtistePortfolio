@@ -51,6 +51,9 @@
         text-align: center;
         margin: auto;
     }
+    .header-text p{
+        width: 80%;
+    }
 }
 
 @media all and (max-width:768px) {
@@ -67,12 +70,14 @@
     .contact{
         text-align: center;
     }
-    .line{
-        margin: auto;
-    }
+   
   .contact-info{
       padding: 2rem;
   }
+  .header-text p{
+      width: 100%;
+  }
+  
 }
 
 @media all and (max-width:576px) {
@@ -84,16 +89,12 @@
         top: 50%;
     }
    
-    .header-text  h5{
-        font-style: normal;
-        font-weight: bold;
-        font-size: 20px;
-        line-height: 28px;
-    }
+   
     .header-text p{
         font-style: normal;
         font-weight: normal;
-        font-size: 16px;
+        font-size: 18px;
+        width: 100%;
         line-height: 24px; 
     }
     .about-text{
