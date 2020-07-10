@@ -9,7 +9,9 @@
     .about-img{
         margin: auto;
     }
-    
+    .input-group{
+        margin-left: 60px;
+    }
    
 }
 
@@ -99,6 +101,11 @@
     }
     .line{
         width: 100%;
+    }
+    .input-group{
+        width: 100%;
+        margin: auto;
+        margin-left:30px;
     }
  
     
