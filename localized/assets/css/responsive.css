@@ -1,0 +1,214 @@
+/* MEDIA QUERIES FOR 576PX AND ABOVE */
+/* Only use the breakpoint necessary to your project */
+
+@media all and (max-width:1200px) {
+    .icon-list {
+        margin-right: auto !important;
+        text-align: center;
+    }
+    .footer-icon{
+        margin: auto !important;
+    }
+    .icon-list li a{
+        text-align: center;
+    }
+    .about-img{
+        margin: auto;
+    }
+    .about-text{
+        padding-left: 0;
+    }
+    #about-me{
+        text-align: center;
+    }
+    .header-text{
+        top: 50%;
+        width: 100%;
+    }
+    .header-text p{
+        width: 50%;
+        margin: auto;
+    }
+    header .nav-item{
+        padding-right: 40px;
+    }
+    .header-btn{
+        margin-top: 40px;
+    }
+    .song{
+        text-align: center;
+    }
+    .icon-list li{
+        float: none !important;
+    }
+    .footer-icon{
+        margin: auto !important;
+    }
+}
+
+@media all and (max-width:992px) {
+    .form-sec .contact-info{
+        padding-left: 50px !important;
+    }
+ .line{
+     width: 200px;
+ }
+   .album-text p{
+       height: 65px;
+       text-align: left;
+       padding-right: 0px;
+   }
+   .blog-text p{
+    padding-right: 0;    
+   }
+   header .nav-item{
+       padding-right: 0px !important;
+   }
+   header .nav-link{
+       text-align: center;
+   }
+   .footer-content .navbar-brand{
+       text-align: center;
+       margin: auto;
+   }
+   .footer-text p{
+       text-align: center;
+   }
+   
+   
+}
+
+@media all and (max-width:768px) {
+    .header-text{
+        width:100%;
+        padding: 20px;
+    }
+    .header-text h4{
+        font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 28px;
+    }
+    .header-text p{
+        width: 80%;
+        font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+    }
+    .header-btn{
+        font-size: 16px;
+    }
+    .album-text h5{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 28px        
+    }
+  .album-sec{
+      padding-left: 40px;
+      padding-right: 40px;
+  }
+  .blog-col{
+      padding-left: 40px;
+      padding-right: 40px;
+  }
+  .contact-sec{
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .release-col{
+      padding-left: 40px;
+      padding-right: 40px;
+  }
+  .icon-list {
+    margin-right: auto !important;
+    text-align: center;
+}
+.footer-icon{
+    margin: auto !important;
+
+}
+.icon-list li a{
+    text-align: center;
+}
+ 
+}
+
+@media all and (max-width:576px) {
+   .album-card{
+       margin-bottom: 50px !important;
+   }
+   .bg-footer h6{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+   }
+   .news-btn{
+       width: 97px;
+       text-align: justify;
+       font-size: 16px;
+       height: 44px;
+   }
+   .input-group input{
+       height: 44px !important;
+   }
+   ::placeholder{
+       font-size: 16px !important;
+   }
+   form{
+       text-align: center;
+   }
+   .form-sec .contact-info{
+       padding-top: 35px;
+       padding-left: 5px;
+       text-align: center;
+   }
+   .line{
+       width: 220px;
+       margin: auto;
+   }
+    #about-me{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .header-text {
+        padding: 0;
+    }
+    .header-text h4{
+        font-size: 20px;
+    }
+    .album-text p{
+        font-size: 16px;
+    }
+    .release-text h5{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 28px;
+    }
+    
+    .blog-text p{
+        padding-right: 50px;
+    }
+    .icon-list li{
+        float: none !important;
+    }
+    .icon-list {
+        margin-right: auto !important;
+        text-align: center;
+    }
+    .footer-icon{
+        margin: auto !important;
+    }
+    .icon-list li a{
+        text-align: center;
+    }
+}
+
+
+
+
