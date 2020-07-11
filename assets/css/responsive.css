@@ -220,6 +220,23 @@ line-height: 24px;
     }
 }
 
-
+@media all and (max-width:375px){
+    .album-sec{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .blog-col{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .contact-sec{
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    .release-col{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
 
 
