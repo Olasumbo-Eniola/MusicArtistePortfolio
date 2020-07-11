@@ -48,7 +48,9 @@
 
 @media all and (max-width:992px) {
     .form-sec .contact-info{
-        padding-left: 50px !important;
+        padding-left: 20px !important;
+        
+        margin-top: 10px;
     }
  .line{
      width: 200px;
@@ -147,6 +149,12 @@ line-height: 24px;
     font-size: 18px;
     line-height: 23px;
    }
+   .blog-text h5{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 28px;
+   }
    .news-btn{
        width: 97px;
        text-align: justify;
@@ -166,6 +174,7 @@ line-height: 24px;
        padding-top: 35px;
        padding-left: 5px;
        text-align: center;
+       margin: auto !important;
    }
    .line{
        width: 220px;
@@ -192,7 +201,9 @@ line-height: 24px;
     }
     
     .blog-text p{
-        padding-right: 50px;
+        padding-right: 0px;
+        font-size: 16px;
+        width: 100%;
     }
     .icon-list li{
         float: none !important;
@@ -207,8 +218,33 @@ line-height: 24px;
     .icon-list li a{
         text-align: center;
     }
+    .footer-text p{
+        font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 26px;
+text-align: center;
+    }
 }
 
-
+@media all and (max-width:375px){
+    .album-sec{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .blog-col{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .contact-sec{
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    .release-col{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
 
 
