@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 * {
   padding: 0;
   margin: 0;
@@ -6,222 +7,382 @@
 html{
   scroll-behavior: smooth;
 }
-body h6{
-  font-style: normal;
-font-weight: bold;
-font-size: 28px;
-line-height: 28px;
-}
-body p{
-   font-size: 18px;
-}
-.navbar{
+header .navbar{
   background: #000000;
 }
 header .nav-item{
-  padding-right: 57px;
-  padding-bottom: 15px;
-  color: blueviolet;
+  padding-right: 65px;
 }
-.nav-link{
-  color: aqua;
+header .nav-link{
+  color: white;
+  font-style: normal;
+  font-weight: bold;
   font-size: 18px;
+  line-height: 28px;  
 }
-header .navbar-nav .nav-link {
-  color: white !important;
+.navbar .nav-item .nav-link:hover{
+  color: #FF7D05;
 }
-  .navbar-nav .nav-link:hover {
-  color: #FF7D05 !important;
-}
-header .navbar-nav .nav-item li.active{
- color: blue;
-}
+
+/*seCTION GOES IN HERE*/
 .bg{
-  background: url(https://res.cloudinary.com/olasumboeniola/image/upload/v1594205582/Rectangle_1_1_vqwapd.png) center no-repeat;
-  position: relative;
+  background: url(https://res.cloudinary.com/olasumboeniola/image/upload/v1594205582/Rectangle_1_1_vqwapd.png) center no-repeat; 
+  height: 760px;
   background-size: cover;
-  height: 100vh;
-  background-attachment: fixed;
+  position: relative;
 }
 .filter{
   background: #000000;
-  opacity: 0.7;
-  width: 100%;
-  height: 100%;
+opacity: 0.7;
+height: 100%;
 }
 .header-text{
+  font-family:  'Open Sans';
   position: absolute;
-  top: 50%;
+  top: 336px;
   left: 50%;
-  width: 100%;
   transform: translate(-50%, -50%);
-  color: white;
   text-align: center;
 }
-.header-text h5{
-  font-style: normal;
+.header-text h4{
+  font-family: 'Open Sans';
+font-style: normal;
 font-weight: bold;
 font-size: 48px;
 line-height: 65px;
-}
-#about-me{
-  padding: 2rem;
+text-align: center;
+color: #FFFFFF;
 }
 .header-text p{
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 28px;
-  width: 60%;  
-  margin: auto;
-  text-align: center;
+  font-family: 'Open Sans';
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 28px;
+color: #FFFFFF;
+text-align: left;
 }
-.learn-more{
-  margin-top: 20px;
-  color: white;
-  background: #FF7D05;
-  border-radius: 0;
+.header-btn{
   width: 164px;
+  height: 58px;
+  background: #FF7D05;  
+  border-radius: 0;
+  color: #FFFFFF;
+  font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 28px;
+
 }
 
+#about-me{
+  padding-top: 78px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
 .about-text{
-  margin-top: 50px;
+  padding-top: 45px;
+  padding-left: 2.5rem;
 }
-.about-btn{
-  color: white;
-  background: #FF7D05;
-  border-radius: 0;
-  width: 157px;
-}
-.about-text h5{
+.about-text h4{
+  font-family: Open Sans;
   font-style: normal;
   font-weight: bold;
   font-size: 28px;
   line-height: 28px;
+  /* identical to box height, or 100% */
+  
+  
   color: #333333;  
 }
 .about-text p{
+  padding-top: 30px;
+  font-family: Open Sans;
   font-style: normal;
-font-weight: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  /* or 156% */
+  
+  
+  color: #333333;
+  
+}
+.about-btn{
+  width: 157px;
+  height: 58px;
+  left: 720px;
+  top: 1466px;
+  margin-top: 25px;
+ color: #FFFFFF;
+  background: #FF7D05;  
+  font-style: normal;
+font-weight: bold;
 font-size: 18px;
 line-height: 28px;
-color: #333333;
+border-radius: 0;
 }
-.services{
-  margin-top: 60px;
+.service-card{
+  background: #FFFFFF;
+  border: 1.01208px solid #333333;
 }
-
-.card-text h4{
+.service-card h6{
+  font-family: Open Sans;
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
   line-height: 28px;
+  /* identical to box height, or 117% */
+  
+  
+  color: #333333;
+  }
+  .service-card p {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+    
+    
+    color: #333333;
+       
+  }
+  #albums{
+    background: #FEFAF5;
+    margin-top:30px;
+  
+  }
+  .album-sec {
+    padding-left:80px;
+    padding-right: 80px;
+    padding-top: 54px;
+  }
+  .album-col{
+    margin-top: 35px;
+  }
+  .album-card{
+    border-radius: 0;
+     border: none;
+    margin-bottom: 93px !important;
+    background: transparent !important;
+  }
+  .album-text{
+    padding-top: 23px;
+  }
+  .album-text h5{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 28px;
+    color: #333333;   
+  }
+  .album-text p{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    color: #333333;   
+   height: 60px;
+   padding-right: 50px;
+   text-align: justify;
+  }
+  .latest{
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+  .release{
+    margin-top: 32px;
+  }
+  .release h5{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 28px;
+    color: #333333;  
+  }
+  .release p{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;  
+  }
+  .release-col{
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-top: 38px;
+  }
+  .release-card-sec{
+    border-radius: 0;
+  }
+  .release-card{
+    border-radius: 0;
+    border: none;
+    background: transparent !important;
+  }
+  .release-text{
+    padding-top: 23px;
+    
+  }
+  .release-text h5{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;   
+   color: #000000;
+  }
+  .release-text p{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    color: #333333;   
+  }
+  #blog{
+    margin-top: 43px;
+    background: #FEFAF5 !important;
+  }
+  .blog-col{
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 37px;
+    padding-bottom: 47px;
+  }
+  .blog-card{
+    background: transparent;
+    border: none;
+  }
+.blog-text{
+  padding-top: 36px;
+}
+.blog-text h5{
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 28px;  
+  color: #333333;
+}
+.blog-text p{
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
   color: #333333;  
+  padding-right: 70px;
 }
-.card-text p{
+.contact-sec{
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 41px;
+}
+.contact-sec h5{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 28px;
+  color: #333333;
+  
+}
+.contact-sec p{
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
-  line-height: 28px;  
+  line-height: 28px  
 }
-#albums{
-  background: #FEFAF5;
-  margin-top: 60px;
- 
+.form-sec{
+  padding-top: 60px;
 }
-.album{
-padding-top: 50px;
-padding-bottom: 50px;
+form{
+  text-align: left;
 }
-.album h4{
-  font-style: normal;
-font-weight: bold;
-font-size: 28px;
-line-height: 28px;
-}
-.album-card{
-background-color: transparent;
-  border: none;
-}
-.album-card h6{
-  font-style: normal;
-font-weight: bold;
-font-size: 20px;
-line-height: 28px;
-color: #333333;
-}
-.album-card p{
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 28px;  
-}
-.release{
-  margin-top: 93px;
-}
-.card-columns{
-  margin: auto;
-}
-#blog{
-  background: #FEFAF5;
-
-}
- input, textarea{
+.form-sec input{
   border-radius: 0 !important;
+  height: 100px;
   border: 1px solid #333333 !important;
-  box-sizing: border-box; 
-  width: 650px;
-  color: #FFFFFF !important;
 }
-
-.contact-btn{
-  background: #FF7D05;
-  color: #FFFFFF;
-  border-radius: 0;
-  width: 186px;
+.form-sec textarea{
+  height: 382px;
+  border: 1px solid #333333 !important;
+}
+.form-sec .contact-info{
+  padding-left: 100px;
+  padding-top: 20px;
 }
 .contact-info h6{
-  font-style: normal;
+  font-family: Open Sans;
+font-style: normal;
 font-weight: bold;
 font-size: 20px;
 line-height: 27px;
-
+color: #333333;
 }
 .contact-info p{
+  font-family: Open Sans;
   font-style: normal;
-font-weight: normal;
-font-size: 20px;
-line-height: 27px
-}
-.line{
-  border: 1px solid #000000;
-  height: 0.1px;
-  width: 250px;
-}
-
-.bg-footer{
-  background: url(https://res.cloudinary.com/olasumboeniola/image/upload/v1594200518/Rectangle_28_bevar0.png) center no-repeat;
-  height: 50vh;
-  position: relative;
-  background-size: cover;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 27px;
+  
+  color: #333333;
   
 }
-.footer-text{
+.contact-btn{
+  width: 186px;
+height: 58px;
+background: #FF7D05;
+color: #FFFFFF;
+border-radius: 0;
+}
+.line{
+  width: 250px;
+  border: 1px solid #000000;
+}
+.sub{
+  margin-top: 100px;
+}
+.bg-footer{
+  background:url(http://via.placeholder.com/1440x424)  center no-repeat;
+  height: 424px;
+  position: relative;
+  background-size: cover;
+  background-blend-mode: luminosity;
+}
+.bg-footer h6{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+
+}
+.foot-text{
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
   text-align: center;
+
 }
 .input-group input{
   background: transparent !important;
   border: 2px solid #FFFFFF !important;
+ 
+}
+.col-9{
+  margin: auto;
+  padding-bottom: -20% !important;
 }
 .input-group{
-  margin-top: 10px;
-  margin: auto;
-  margin-left: 100px;
+  margin: auto !important;
+  
 }
 input.form-controwi ::placeholder{
   color: #E8DFE8;
@@ -232,35 +393,55 @@ input.form-controwi ::placeholder{
   width: 155px;
   border-radius: 0;
 }
+/*
+AND IT ENDS HERE*/
+
 footer{
   background: #000000;
+  height: 341px;
+
 }
+
 .footer-content{
-  padding-top: 100px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+ padding-top: 105px;
+}
+footer .nav-link{
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.903504);
+    
 }
 .footer-line{
-  border: 0.1px solid #FFFFFF;
-  height: 2px;
- margin-top: 15px;
-  
+  border: 0.5px solid #FFFFFF;
+  height: 0.1px;
+
 }
-.footer-brand{
+.footer-text{
+  padding-top: 22.23px;
+margin: auto;
+}
+.footer-text p{
   margin-left: -1.5rem;
 }
-.sub-text{
-  font-style: normal;
-font-weight: bold;
-font-size: 30px;
-line-height: 28px;
+.icon-list{
+margin-right: -1.8rem !important;
+  list-style-type: none;
 }
-.sub{
-  margin-top: 45px;
-}
-.song{
-  padding-top: 20px;
-}
-.icon {
+.icon-list li{
   float: right;
+
+}
+.icon-list li a{
+  text-align: center;
   color: #FF7D05;
-  padding-right: 20px;
+
+}
+.footer-content .navbar-brand{
+  margin-left: -1rem;
 }

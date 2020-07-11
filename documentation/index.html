@@ -140,8 +140,6 @@
         <li><a href="#fonts" title="Fonts">Fonts</a></li>
         <li><a href="#icons" title="Icons">Icons</a></li>
         <li><a href="#logo" title="Logo">Logo</a></li>
-        <li><a href="#sliders" title="Sliders">Sliders</a></li>
-        <li><a href="#google_map" title="Google Map">Google Map</a></li>
         <li>
           <a href="#sources_and_credits" title="Sources and Credits"
             >Sources and Credits</a
@@ -155,14 +153,14 @@
     </div>
     <div id="documenter_content">
       <section id="documenter_cover">
-        <h1>Sample Project</h1>
+        <h1>Music Artist Portfolio</h1>
         <h2>Responsive HTML5 Template and Bootstrap</h2>
         <div id="documenter_buttons"></div>
         <hr />
         <ul>
-          <li>created: 03/07/2020</li>
-          <li>latest update: 03/07/2020</li>
-          <li>by: teamsyntax</li>
+          <li>created: 07/10/2020</li>
+          <li>latest update: 07/10/2020</li>
+          <li>by: Team 6 phoenix envato </li>
 
           <li>
             email:
@@ -203,7 +201,7 @@
           1170px wide depending on your viewport.
         </div>
         <div>
-          Below 480px viewports, the columns become fluid and stack vertically.
+          Below 576px viewports, the columns become fluid and stack vertically.
         </div>
         <div>
           &nbsp;
@@ -282,8 +280,11 @@
           <pre class="prettyprint lang-html linenums">
 &lt;!-- Main JS --&gt;
 &lt;script src=&quot;./assets/js/custom.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;        
-</pre
-          >
+&lt;!-- Font awesome JS --&gt;
+&lt;script src=&quot;https://use.fontawesome.com/3957c2f6e9.js&quot;&gt;&lt; /script&gt;
+&lt;!-- Main JS --&gt;
+&lt;script src=&quot;https://use.fontawesome.com/3957c2f6e9.js&quot;&gt;&lt; /script&gt;
+</pre>
         </div>
         <p>&nbsp;</p>
       </section>
@@ -369,163 +370,14 @@
           <h3>Logo</h3>
           <hr class="notop" />
         </div>
-        <p>
-          Open index.html and find this part of code. Just change path to your
-          image logo
-        </p>
+
         <pre class="prettyprint lang-html linenums">
-&lt;a class=&quot;navbar-brand&quot; href=&quot;#&quot;&gt; &lt;img src=&quot;./assets/images/...path to your logo<span style="font-family: Arial, Verdana, sans-serif;">... path to your image logo ...</span><span style="font-family: Arial, Verdana, sans-serif;">&quot; alt=&quot;logo&quot; /&gt; &lt;/a&gt;</span>
+&lt;a class=&quot;navbar-brand&quot; href=&quot;#&quot;&gt; &lt;img src=&quot;./assets/images/JOEKING.svg<span style="font-family: Arial, Verdana, sans-serif;">&quot; alt=&quot;logo&quot; /&gt; &lt;/a&gt;</span>
 </pre>
       </section>
-      <section id="sliders">
-        <div class="page-header">
-          <h3>Sliders</h3>
-          <hr class="notop" />
-        </div>
-        <div>
-          Slick slider is the slider you will find in the content. It's an essay
-          to use lighweight carousel with some decent features.
-        </div>
-        <div>
-          &nbsp;
-        </div>
-        <div>
-          <div>
-            <div>
-              Estate Section slider has class &#39;sliders&#39; and each slide
-              has &#39;&lt;div class=&quot;slider-item&quot;&gt;&#39; wrapper
-              for easy find where slide html code start. If you wont remove some
-              slide just remove div with all content like this &#39;&lt;div
-              class=&quot;item&quot;&gt;&#39;
-            </div>
-            <div>
-              &nbsp;
-            </div>
-          </div>
-          <pre class="prettyprint lang-html linenums">
-&lt;!-- Sliders --&gt;
-&lt;div class=&quot;sliders&quot;&gt;
-    &lt;div class=&quot;row home-sliders&quot;&gt;
-      &lt;div class=&quot;col-md-4 slider-item&quot;&gt;
-          &lt;img src=&quot;./assets/images/sliders/house.png&quot; alt=&quot;Exclusive Apartment&quot; class=&quot;img-fluid slider-img&quot; &gt;
-          &lt;div class=&quot;slider-desc p-2 px-3&quot;&gt;
-            &lt;p class=&quot;slider-name m-0&quot;&gt;Exclusive Apartment&quot;/p&gt;
-            &lt;a href=&quot;#&quot; class=&quot;slider-link&quot;&gt;Explore &gt;&quot;/a&gt;
-          &lt;/div&gt;          
-      &lt;/div&gt;
-
-      &lt;div class=&quot;col-md-4 slider-item&quot;&gt;
-            ...
-      &lt;/div&gt;
-
-      &lt;div class=&quot;col-md-4 slider-item&quot;&gt;
-            ...
-      &lt;/div&gt;
-    &lt;/div&gt;
-&lt;/section&gt;
-&lt;!-- /.Testimonial --&gt;</pre
-          >
-          <div>
-            &nbsp;
-          </div>
-          <div>
-            If you want change option for sliders you need to open
-            assets/js/custom.js and find &#39;// Our Sliders Start&#39; function
-            and set true/false for option what you wont to change
-          </div>
-          <div>
-            &nbsp;
-          </div>
-          <div>
-            &nbsp;
-          </div>
-          <pre class="prettyprint lang-js linenums">
-// Slick Slider Configuration
-$(document).ready(function () {
-  // Homepage Sliders
-  $('.home-sliders').slick({
-    autoplaySpeed: 2000,
-    slidesToShow: 3,
-    dots: true,
-    prevArrow: $('.prev-btn'),
-    nextArrow: $('.next-btn'),
-  })
-
-  $('.residence-sliders').slick({
-    autoplaySpeed: 2000,
-    slidesToShow: 4,
-    dots: true,
-    responsive: [
-      {
-        breakpoint: 768,
-        settings: {
-          arrows: true,
-          slidesToShow: 3,
-        },
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-          slideToScroll: 1,
-        },
-      },
-    ],
-  })
-})
-</pre
-          >
-        </div>
-        <p>
-          You can find more documentation here&nbsp;<a
-            href="https://kenwheeler.github.io/slick/"
-            target="_blank"
-            >https://kenwheeler.github.io/slick/</a
-          >
-        </p>
-      </section>
-      <section id="google_map">
-        <div class="page-header">
-          <h3>Google Map</h3>
-          <hr class="notop" />
-        </div>
-        <div>
-          The map used in the content is a google map embedded
-        </div>
-        <div>
-          <a href="https://www.google.ng/maps">https://www.google.ng/maps</a>
-        </div>
-        <div>
-          &nbsp;
-        </div>
-        <div>
-          &nbsp;
-        </div>
-        <div>
-          change&nbsp;
-        </div>
-        <pre class="prettyprint lang-html linenums">
-change the src="https://www.google.com/maps/embed?pb=XXXXXXXX" url
-&lt;iframe
-	src=""
-	width="100%"
-	height="450"
-	frameborder="0"
-	style="border: 0;"
-	allowfullscreen=""
-	aria-hidden="false"
-	tabindex="0"
-&gt;&lt;/iframe&gt;
-		</pre
-        >
-
-        <div>
-          to
-        </div>
-        <pre class="prettyprint lang-html linenums">
-          To your preferred Location
-        </pre>
-      </section>
+     
+      
+      
       <section id="sources_and_credits">
         <div class="page-header">
           <h3>Sources and Credits</h3>
