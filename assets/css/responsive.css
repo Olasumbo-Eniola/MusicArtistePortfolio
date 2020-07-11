@@ -195,7 +195,7 @@ line-height: 24px;
     }
     
     .blog-text p{
-        padding-right: 50px;
+        padding-right: 0px;
     }
     .icon-list li{
         float: none !important;
