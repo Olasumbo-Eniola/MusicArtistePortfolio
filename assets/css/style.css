@@ -438,7 +438,7 @@ font-size: 20px;
 line-height: 26px;
 }
 .icon-list{
-margin-right: -1.8rem !important;
+margin-right: -1rem;
   list-style-type: none;
 }
 .icon-list li{
